@@ -1,0 +1,19 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+.banner{
+    background-image: url(/vishwa-portfolio-main/img/slider.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 230px 0;
+}
+
+.skills-padding{
+    padding: 70px 0;
+}
+
+@media (max-width: 526px){
+    .banner{
+        padding: 100px 0;
+    }
+}
